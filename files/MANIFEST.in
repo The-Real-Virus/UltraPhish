@@ -1,0 +1,6 @@
+include ultraphish
+include *.md
+include *.py
+include files/*.txt
+include files/*.json
+include *.txt
