@@ -50,8 +50,9 @@ Step 3: Install dependencies (git, python, php ssh)
     - ```pkg install git python3 php openssh -y```  
 
 Step 4: Install all modules  
->Enter the directory (cd UltraPhish)  
->pip3 install -r files/requirements.txt  
+>sudo apt install python3-bs4  
+>sudo apt install python3-rich  
+>sudo apt install python3-requests  
 
 Step 5: After Completing the process now u can run script  
 >python3 ultraphish.py  
