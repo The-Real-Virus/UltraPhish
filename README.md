@@ -49,12 +49,14 @@ Step 3: Install dependencies (git, python, php ssh)
 >For Termux  
     - ```pkg install git python3 php openssh -y```  
 
-Step 4: Install all modules  
->sudo apt install python3-bs4  
->sudo apt install python3-rich  
->sudo apt install python3-requests  
+Step 4: Install all modules(MUST BEFORE RUNNING SCRIPT)  
+>1) `sudo apt install python3-bs4`  
+>2) `sudo apt install python3-rich`  
+>3) `sudo apt install python3-requests`  
+>4) `sudo apt install git python3 php openssh-client -y`  
+>5) `git clone https://gitlab.com/The-Real-Virus/ultrasites.git $HOME/.websites`  
 
-Step 5: After Completing the process now u can run script  
+Step 5: After Completing the process (Runing Step 4 all 5 commands), now u can run script  
 >python3 ultraphish.py  
 
 ## ⚙️Troubleshooting
